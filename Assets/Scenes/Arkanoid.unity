@@ -3860,7 +3860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff43ae30212f3a146aefaf03f41cc7b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadInicial: {x: 3, y: 3}
+  velocidadInicial: {x: 5, y: 5}
   sumarScore: {fileID: 1362513875}
   puntos: 0
 --- !u!212 &1996474288
