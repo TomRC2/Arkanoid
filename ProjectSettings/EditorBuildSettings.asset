@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Secret easter egg.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Arkanoid.unity
+    path: Assets/Scenes/ArkanoidLV1.unity
     guid: 5238229a01b6f50448dca468783f1999
   - enabled: 1
     path: Assets/Scenes/Victoria.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Derrota.unity
     guid: db375909705723f4aad0d674769e63c7
+  - enabled: 1
+    path: Assets/Scenes/ArkanoidLV2.unity
+    guid: 498197fe42cfc284091b9cda9fd04836
   m_configObjects: {}

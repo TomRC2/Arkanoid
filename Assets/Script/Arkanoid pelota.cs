@@ -9,6 +9,7 @@ public class Arkanoidpelota : MonoBehaviour
     private Rigidbody2D pelota;
     public Collision2D collision;
     bool moviendose;
+    public GameObject VictoryPanel;
     public Puntos sumarScore;
     public int puntos;
     void Start()
@@ -47,7 +48,8 @@ public class Arkanoidpelota : MonoBehaviour
         GameObject[] bricks = GameObject.FindGameObjectsWithTag("Ladrillos");
         if (bricks.Length == 0) 
         {
-            SceneManager.LoadScene("Victoria");
+            VictoryPanel.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 
