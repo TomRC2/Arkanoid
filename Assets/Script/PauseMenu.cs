@@ -25,20 +25,20 @@ public class PauseMenu : MonoBehaviour
 
     public void Resume()
     {
-        MenuDePausa.SetActive(false); 
-        Time.timeScale = 1f; 
+        MenuDePausa.SetActive(false);
+        Time.timeScale = 1f;
         pausado = false;
     }
 
-    
+
     void Pause()
     {
-        MenuDePausa.SetActive(true); 
-        Time.timeScale = 0f; 
+        MenuDePausa.SetActive(true);
+        Time.timeScale = 0f;
         pausado = true;
     }
 
-    
+
     public void QuitGame()
     {
         Debug.Log("Saliendo del juego...");
@@ -47,7 +47,11 @@ public class PauseMenu : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("Arkanoid");
+        SceneManager.LoadScene("ArkanoidLV1");
+    }
+    public void Restart2()
+    {
+        SceneManager.LoadScene("ArkanoidLV1");
     }
     public void LoadMainMenu()
     {
