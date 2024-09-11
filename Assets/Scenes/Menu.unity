@@ -237,8 +237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 437.72, y: 0}
-  m_SizeDelta: {x: 449.24, y: 687}
+  m_AnchoredPosition: {x: 235.44, y: 0}
+  m_SizeDelta: {x: 329.13, y: 456.0791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &76662762
 MonoBehaviour:
@@ -309,8 +309,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -247, y: 199}
-  m_SizeDelta: {x: 676.948, y: 257.3554}
+  m_AnchoredPosition: {x: -85, y: -105.77}
+  m_SizeDelta: {x: 616.7078, y: 227.2353}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &606873710
 MonoBehaviour:
@@ -469,8 +469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 411.8, y: 148.5777}
-  m_SizeDelta: {x: 397.4, y: 181.7593}
+  m_AnchoredPosition: {x: 235.44, y: 100}
+  m_SizeDelta: {x: 245.126, y: 114.8257}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &725326586
 MonoBehaviour:
@@ -747,8 +747,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -209.35727, y: 0}
-  m_SizeDelta: {x: 844.9186, y: 687}
+  m_AnchoredPosition: {x: -164.566, y: 0.00022507}
+  m_SizeDelta: {x: 470.8661, y: 450.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1571436641
 MonoBehaviour:
@@ -821,8 +821,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 411.8, y: -105.76805}
-  m_SizeDelta: {x: 397.4, y: 174.4508}
+  m_AnchoredPosition: {x: 235.44, y: -105.76999}
+  m_SizeDelta: {x: 265.2061, y: 124.2506}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651838456
 MonoBehaviour:
@@ -979,7 +979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

@@ -5051,7 +5051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff43ae30212f3a146aefaf03f41cc7b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadInicial: {x: 5, y: 5}
+  velocidadInicial: {x: 6, y: 6}
   VictoryPanel: {fileID: 684315541}
   Retry: {fileID: 969661020}
   sumarScore: {fileID: 1362513875}
