@@ -3,16 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Menu : MonoBehaviour
+public class Killzone : MonoBehaviour
 {
-    
-    public void Jugar()
+    public GameObject Retry;
+    public void Jugar1()
     {
         SceneManager.LoadScene("ArkanoidLV1");
     }
-    public void QuitGame()
+    public void Jugar2()
     {
-        Debug.Log("Saliendo del juego...");
-        Application.Quit();
+        SceneManager.LoadScene("ArkanoidLV2");
     }
 }

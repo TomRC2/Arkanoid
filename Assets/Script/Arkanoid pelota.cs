@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,11 +11,13 @@ public class Arkanoidpelota : MonoBehaviour
     public Collision2D collision;
     bool moviendose;
     public GameObject VictoryPanel;
+    public GameObject Retry;
     public Puntos sumarScore;
     public int puntos;
     void Start()
     {
         pelota = GetComponent<Rigidbody2D>();
+        Time.timeScale = 1f;
 
     }
 
@@ -38,7 +41,8 @@ public class Arkanoidpelota : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Killzone"))
         {
-            Derrota();
+            Time.timeScale = 0f;
+            Retry.SetActive(true);
         }
         
     }
@@ -53,9 +57,5 @@ public class Arkanoidpelota : MonoBehaviour
         }
     }
 
-    void Derrota()
-    {
-        SceneManager.LoadScene("Derrota");
-    }
-
+    
 }

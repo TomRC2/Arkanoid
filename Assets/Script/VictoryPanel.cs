@@ -12,5 +12,10 @@ public class Victory : MonoBehaviour
     {
         SceneManager.LoadScene("ArkanoidLV2");
     }
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Menu");
+    }
 
 }
